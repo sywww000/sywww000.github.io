@@ -2,14 +2,10 @@
 
 function sayHello(){
   var response = prompt("What is your name?");
-  alert("Hello," + response + ",have a nice day!");
+  alert("Hello," + response + ",welcome to my puzzle game!");
 }
+sayHello()
 
-function add(a,b){
-  return a + b;
-}
-console.log(add(20,30));
-console.log(add(18,17));
 
 function showTopic(){
   var x = document.getElementById('demo');
