@@ -1,4 +1,4 @@
-document.write("Hello,world!");
+
 
 function sayHello(){
   var response = prompt("What is your name?");
