@@ -3,24 +3,26 @@ body {
   line-height: normal;
   font-family: Georgia, "Times New Roman",Times, serif;
   color: purple;
-  background-color: #d8da3d
+  background-color: #6E8B74;
 }
 
 h1{
   text-align: center;
-  color:blue;
+  color:#F2E6CE;
 }
 
 p{
   text-align: center;
-  color:red;
+  color:#F2E6CE;
+
 }
 
 button{
-    font-size: 50px;
-    background-color:green;
-    border-color:green;
-    color: white;
+
+    font-size: 38px;
+    background-color:#F2E6CE;
+    border-color:#475C4E;
+    color:#6E8B74 ;
     padding: 10px;
     text-align: center;
     margin: 50px;
