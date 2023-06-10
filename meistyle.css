@@ -1,0 +1,65 @@
+body{
+    background-color: #BCDDED;
+}
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand img{
+  height: 3rem;
+}
+
+.navbar-nav li{
+  padding-right: 1rem;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+
+/* Anime Intro */
+#animeIntro{
+    margin-top: 2rem;
+}
+
+.line{
+    border-top: 3px solid ;
+    width: 25%;
+    color: #8E7D60
+}
+
+.row{
+    margin: auto;
+}
+
+
+/* zoom effect */
+.zoom {
+    transition: transform .2s;
+  }
+
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+
+  h1{
+    text-align: center;
+    color:#4E777D
+  }
+
+  p{
+    text-align: center;
+      color:#4E777D
+  }

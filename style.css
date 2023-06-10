@@ -1,0 +1,84 @@
+.xiaogou {
+    background-image: url(线条小狗.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand img{
+  height: 3rem;
+}
+
+.navbar-nav li{
+  padding-right: 1rem;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+/* studioDetails */
+.studio{
+    padding-top: 50px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.studioDetails{
+    border: 10px solid #736A62;
+    border-radius: 20px;
+    position: absolute;
+}
+
+
+.footer-top{
+  background-color:#ADD8E6;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.footer-top h2{
+  font-size: 4rem;
+}
+.footer-top a{
+  color:#9ca9b6;
+}
+.footer-top a:hover{
+  color:#4682B4;
+}
+.footer-top li{
+  color:#9ca9b6;
+}
+
+h1{
+  text-align: center;
+  color:#F4DCFD
+}
+
+.card-body {
+    flex: 11 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+
+section .btn {
+    background-color: #8B9FC4;
+    font-size: 1.5rem;
+}
